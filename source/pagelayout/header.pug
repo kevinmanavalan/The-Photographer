@@ -1,0 +1,9 @@
+header.ph.header
+      nav.header__nav(data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500")
+        ul
+          +menu('PROJECTS', '/' )
+          +menu('SHOP', '/')
+          a(href='/', title="logo").logo-container 
+            img(src="../images/logo.png", alt="company logo").logo
+          +menu('INFOS', '/')
+          +menu('CONTACT', '/')

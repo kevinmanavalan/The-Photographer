@@ -1,0 +1,27 @@
+$primary-font: "CircularStd";
+$secondary-font: "Domaine Sans Display";
+$white: #ffffff;
+$button-color: #35516b;
+$carousel-section-background: #a7c6e3;
+$project-section-background: #121212;
+$second-text-color: #03325b;
+$third-text-color: #6c6c6c;
+
+html,
+body {
+  font-family: $primary-font;
+  font-size: 16px;
+}
+body {
+  display: none;
+  &.is-loaded {
+    display: block;
+  }
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  -webkit-tap-highlight-color: transparent;
+  text-size-adjust: none;
+}

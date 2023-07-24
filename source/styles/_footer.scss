@@ -1,0 +1,54 @@
+.ph.footer {
+  background-color: $project-section-background;
+  .footer__wrap {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    color: $white;
+    h3 {
+      @include font-size(18px, 0px);
+      color: $third-text-color;
+      font-weight: 400;
+      letter-spacing: 0.705em;
+    }
+    p {
+      @include font-size(44px, 64px);
+      font-family: $secondary-font;
+      font-weight: 400;
+    }
+  }
+  .footer__address {
+    margin: rem(172) rem(97) rem(84) rem(95);
+  }
+  .footer__social {
+    margin: rem(172) rem(95) rem(84) rem(95);
+  }
+  .footer__address {
+    width: rem(604);
+    h3,
+    p {
+      text-align: left;
+    }
+  }
+  .footer__line {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90%;
+    height: rem(2);
+    background-color: $white;
+    display: flex;
+    align-self: center;
+  }
+  .footer__copyright {
+    color: $white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    p {
+      @include font-size(24px, 68px);
+      margin: rem(10) rem(95) rem(84) rem(95);
+      font-weight: 300;
+    }
+  }
+}

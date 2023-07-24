@@ -1,0 +1,37 @@
+.ph.freelance {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .freelance__container {
+    color: $second-text-color;
+    height: inherit;
+    width: rem(1073);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  h2 {
+    @include font-size(150px, 151px);
+    margin: rem(50) 0;
+    font-family: $secondary-font;
+    font-weight: 400;
+    text-align: center;
+    width: rem(707);
+  }
+  .freelance__minorlogo {
+    @include font-size(16px, 19px);
+    margin: rem(50) 0;
+    font-weight: 400;
+    letter-spacing: 1.28em;
+  }
+  .freelance__description {
+    @include font-size(64px, 77px);
+    width: rem(1073);
+    margin: rem(50) 0;
+    font-family: $secondary-font;
+    font-weight: 400;
+    text-align: center;
+  }
+}

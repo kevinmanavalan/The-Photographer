@@ -1,0 +1,20 @@
+extend ../pagelayout/home
+block variables
+	-var active = 'Home'
+	-var bodyClass = 'theme--default'
+block story
+	section
+		include ../components/photographer/banner.pug
+	section
+		include ../components/freelance/freelance.pug
+	section 
+		include ../components/featured/featured.pug
+	section 
+		include ../components/tab/tab.pug
+	section.project__section
+		include ../components/project/project.pug
+
+
+
+
+	

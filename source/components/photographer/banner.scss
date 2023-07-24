@@ -1,0 +1,27 @@
+.ph.herobanner {
+  height: 100vh;
+  width: 100%;
+  background: url("../images/hero_banner.png") no-repeat;
+  background-position: center;
+  background-size: cover;
+  .herobanner__logo-wrapper {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+  }
+  h1 {
+    @include font-size(16px, 19px);
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: 1.28em;
+  }
+  h2 {
+    @include font-size(120px, 132px);
+    font-family: $secondary-font;
+    font-weight: 600;
+    width: rem(786);
+  }
+}
