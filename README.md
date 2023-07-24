@@ -5,7 +5,3 @@ Step 2: clone the boiler template
 Step 3: npm install inside the new project
 Step 4: gulp 
 
-For production : gulp --build
-
-
-Happy coding!
